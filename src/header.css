@@ -1,0 +1,23 @@
+
+.navbar_name {
+    width: 100%;
+    cursor: pointer;
+    position:fixed;
+    display: flex;
+    justify-content:center;
+    font-size: 5vw;
+    background-color:rgb(27, 54, 54);
+    font-family:'Syne Mono', monospace;
+    color: aqua;
+    box-shadow: 0 1px 5px black;
+    z-index: 100;
+    padding: 5px 0;
+    
+}
+
+@media (max-width: 1000px){
+    .navbar_name {
+        padding: 15px 0;
+        font-size: 6.8vw;
+    }
+}

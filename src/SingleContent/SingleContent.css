@@ -1,0 +1,39 @@
+.Page{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    padding: 10px;
+    margin: 15px 0 ;
+    background-color: #ddc2c242;
+    font-family:'Syne Mono', monospace;
+    position: relative;
+    border-radius: 15px;
+}
+.Page:hover {
+    background-color:#ecd3d3;
+    color:black;
+}
+
+@media (max-width: 550px){
+    .Page{
+        width: 44%;
+    }
+}
+.poster {
+    border-radius: 15px;
+}
+
+.title {
+    width:100%;
+    text-align: center;
+    font-size:15px;
+    padding: 15px 0;
+}
+
+.subTitle {
+     display:flex;
+     justify-content: space-between;
+     padding: 0 2px;
+     font-weight: 20px ;
+}
+
